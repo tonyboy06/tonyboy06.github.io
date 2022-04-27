@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -41,7 +41,7 @@ a:hover {
 }
 
 main {
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 footer {
@@ -49,7 +49,7 @@ footer {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 785px;
     margin: auto;
     padding-right: 14px;
     padding-left: 14px;
@@ -59,6 +59,7 @@ footer {
     padding-top: 12px;
     padding-bottom: 42px;
     font-size: 20px;
+    font-weight: 100;
 }
 
 
@@ -66,17 +67,26 @@ footer {
     text-align: center;
 }
 
+
+
 .container hr {
     display: block;
     height: 1px;
     background-color: white;
     border: 0;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+}
+
+.hr1 {
+    margin-bottom: 35px;
 }
 
 .hr2 {
-    margin-top: 0;
+    margin-top: 15px;
 }
+
+
+
 
 
 
@@ -86,5 +96,6 @@ footer {
         width: 100%;
         margin: auto;
     }
+
 }
 
