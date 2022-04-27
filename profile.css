@@ -45,6 +45,12 @@
 
 
 @media screen and (max-width: 475px) {
+  .profile_name {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 17px;
+  }
     .work-container {
       display: block;
     }
