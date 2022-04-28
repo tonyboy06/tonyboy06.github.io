@@ -36,6 +36,9 @@ a {
     font-weight: bold;
 }
 
+.a {
+    display: inline;
+}
 .a:hover {
     opacity: 0.8;
 }
