@@ -36,8 +36,11 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+.a:hover {
     opacity: 0.8;
+}
+.a:active {
+    color: white;
 }
 
 main {
@@ -60,7 +63,9 @@ footer {
     padding-bottom: 42px;
     font-size: 20px;
     font-weight: 100;
+    
 }
+
 
 
 .align-center {
@@ -84,11 +89,6 @@ footer {
 .hr2 {
     margin-top: 15px;
 }
-
-
-
-
-
 
 
 @media only screen and (max-width: 450px) {

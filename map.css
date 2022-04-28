@@ -12,7 +12,7 @@
 .map_header {
     line-height: 50px;
     color: #FCA6D1;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .email {
@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 450px) {
   .map_header {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
   }
 
