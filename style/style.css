@@ -82,7 +82,6 @@ footer {
     height: 1px;
     background-color: white;
     border: 0;
-    
 }
 
 .hr1 {
@@ -99,9 +98,6 @@ footer {
     hr {
         width: 100%;
         margin: auto;
-    }
-    .hr2 {
-        margin-bottom: -.5rem;
     }
     .page_section {
         font-size: 15px;
