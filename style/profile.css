@@ -9,7 +9,7 @@
 .profile_name {
     font-family: 'Orbitron', sans-serif;
     color: #FCA6D1;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 900;
     margin-bottom: 30px;
     font-size: 35px;
