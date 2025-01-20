@@ -7,7 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ffffff;
-    color: black;
+    color: #000000;
 }
 
 main {
@@ -29,6 +29,8 @@ ul {
 
 a {
     margin: 0 5px;
+    color: black;
+    font-size: 25px;
 }
 
 svg {
