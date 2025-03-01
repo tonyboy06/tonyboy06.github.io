@@ -1,82 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A personal page of Joey Cruz, an aspiring web developer based in Rizal, Philippines.">
-    <link rel="icon" href="assets/rukawa.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/profile.css">
-    <link rel="stylesheet" href="style/map.css">
-    <link rel="stylesheet" href="style/links.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Poppins&display=swap" rel="stylesheet">
-    <title>DevJoe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <main>
-
-    <div class="profile page_section">
-        <div class="container align-center profile_container">
-            
-            <img class="profile_image" src="assets/bikerist.jpg" alt="my profile picture">
-            <h1 class="profile_name">DevJoe</h1> 
-            <h5 class="description">Welcome to the personal webpage of Joey Cruz, a web development enthusiast from Rizal, Philippines.</h5>     
+  <!-- navigation bar -->
+   <!-- sample border;; border-solid border-2 border-sky-500 -->
+    <nav class="max-w-[1200px] mx-auto p-4">
+      <!-- flex container -->
+      <div class="flex items-center justify-between ">
+        <!-- logo -->
+        <div class="pt-2">
+          <img class="w-24" src="images/dev_joey.png" alt="dev_joey">
         </div>
+        <!-- menu items -->
+        <div class="hidden space-x-9 text-xl pt-2 capitalize font-medium antialiased font-fredoka md:flex">
+            <a href="#" class="relative after:content-[''] after:block after:w-0 after:h-[4px] after:bg-blue-500 after:mt-1 after:transition-all after:duration-300 hover:after:w-full">home</a>
+            <a href="#" class="relative after:content-[''] after:block after:w-0 after:h-[4px] after:bg-blue-500 after:mt-1 after:transition-all after:duration-300 hover:after:w-full">About</a>
+            <a href="#" class="relative after:content-[''] after:block after:w-0 after:h-[4px] after:bg-blue-500 after:mt-1 after:transition-all after:duration-300 hover:after:w-full">Skills</a>
+            <a href="#" class="relative after:content-[''] after:block after:w-0 after:h-[4px] after:bg-blue-500 after:mt-1 after:transition-all after:duration-300 hover:after:w-full">Work</a>
+            <a href="#" class="relative after:content-[''] after:block after:w-0 after:h-[4px] after:bg-blue-500 after:mt-1 after:transition-all after:duration-300 hover:after:w-full">contact</a>
+          </div>
+      </div>
+    </nav>
+   <hr>
+    <!-- hero section -->
+    <div id="hero">
+      <div class="container flex flex-col-reverse items-center px-4 mt-10 mx-auto space-y-0 md:max-w-[1200px] md:space-y-0 md:flex-row antialiased md:justify-between">
+        <!-- left div -->
+         <div class="flex flex-col font-fredoka mb-8 space-y-12 md:1/2 ">
+          <h1 class="text-center text-3xl font-medium md:text-7xl md:text-left md:leading-[6rem]">
+            Hi, 
+            <span class="block">I'am <span class="text-colorBlue">Joey</span></span>
+            Web Developer
+          </h1>
+          <div class="flex justify-center md:justify-start">
+            <button class="bg-colorBlue hover:bg-blue-600 rounded-lg py-2 px-8 text-white font-medium text-md capitalize">contact</button>
+           </div>
+          <div class="flex flex-row justify-center text-3xl pt-12 md:justify-start">
+            <i class='bx bxl-linkedin mx-2 hover:text-colorBlue hover:cursor-pointer'></i>
+            <i class='bx bxl-github mx-2 hover:text-colorBlue hover:cursor-pointer' ></i>
+            <i class='bx bxl-facebook mx-2 hover:text-colorBlue hover:cursor-pointer' ></i>
+          </div>
+         </div>
+         <!-- right div -->
+         <div class="md:w-1/2 items-center">
+          <img class="w-1/2 mx-auto md:w-4/5 rounded-none mb-8 md:rounded-[43%_57%_29%_71%_/_74%_41%_59%_26%]" src="images/illustration_profile.jpg" alt="">
+         </div>
+         
+      </div> 
     </div>
 
-    <div class="container hr1">
-        <hr>
-    </div>
-    <div class="container page_section">
-        <a href="notes.html">
-            <h2 class="header map_header a">Notes</h2> 
-        </a>
-        <p class="parag map_parag">
-            About web development and tips and tricks on kali linux
-        </p>
-
-        <a href="grind.html">
-            <h2 class="header map_header a">Grind</h2> 
-        </a>
-        <p class="parag map_parag">
-            Learning HTML, CSS, JavaScript, and PHP.
-        </p>
-        
-
-        <a href="https://twitter.com/joeypoge6" target="_blank">
-            <h2 class="header map_header a">
-                Twitter 
-                <i class="fa fa-external-link" aria-hidden="true" style="font-size: 1rem; position: relative; bottom: 3px; opacity: 0.9;"> </i> 
-            </h2> 
-        </a>
-        <p class="parag map_parag">
-            Updates on my development
-        </p>
-
-        <a href="mailto: joeypoge29@gmail.com">
-            <h2 class="header map_header a">Email</h2>
-        </a>
-        <p class="parag map_parag email">
-            For general queries
-        </p>
-    </div>
-
-    <div class="container hr2">
-        <hr>
-    </div>
-        
-
-    </main> 
-
-    <footer>
-        <div class="container align-center">
-            <p class="footer-copyright"> © Joey Cruz 2021</p>
-        </div>
-    </footer>
-
-    
+    <!-- <img class="blob" src="images/illustration_profile.jpg" alt="illustration"> -->
 </body>
 </html>
