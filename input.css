@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blob {
+  border-radius: 43% 57% 29% 71% / 74% 41% 59% 26%;
+}
+
+@media only screen and (min-width: 768px) {
+  .blob {
+    border-radius: none;
+  }
+}
